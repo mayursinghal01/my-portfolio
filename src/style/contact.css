@@ -1,0 +1,26 @@
+.submit-btn{
+    color: #82c232;
+    padding: 12px;
+    border: solid #82c232 4px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.submit-btn:hover{
+    color: white;
+    background-color: #82c232;
+
+}
+.links{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.links a{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #82c232;
+}
+label{
+    color: #82c232;
+    font-size: 20px;
+    margin-top: 10px;
+}

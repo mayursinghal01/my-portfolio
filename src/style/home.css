@@ -1,0 +1,46 @@
+.heading {
+    color: #82c232;
+    font-size: 3rem;
+}
+.resume p{
+    color: #82c232;
+    font-size: 24px;
+    padding: 24px;
+}
+.resume button{
+    border-radius: 50px;
+    background-color:white;
+    color: #82c232;
+    border: solid #82c232 4px;
+    font-size: medium;
+}
+.resume button:hover{
+    background-color: #82c232;
+    color: white;
+}
+.portfolio img{
+    margin: 40px;
+    border-radius: 500rem;
+    border: solid #82c232 12px;
+}
+.resume p span:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #adafb1;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #82c232;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #222629;  /* creates padding around scroll thumb */
+  
+}
+body{
+  background-color: #222629;
+}
