@@ -31,6 +31,8 @@
     vertical-align: middle;
 }
 .skills{
+    z-index: 5;
+    position: relative;
     background-color:#222629;
     border-radius: 45px;
     padding: 50px 10px;

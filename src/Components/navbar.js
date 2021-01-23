@@ -6,7 +6,7 @@ import logo from "../images/logo.png"
 const Navbar = () => {
 
    return(
-    <div className="mynav">
+    <div className="mynav sticky-top">
     <div className="logo">
       <img src={logo} height="95" width="95" />
       <span style={{marginLeft:20,marginTop:10}}>MS</span>

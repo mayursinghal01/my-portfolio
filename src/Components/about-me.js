@@ -14,6 +14,7 @@ const About =() => {
         {name:'Mongo DB', per:"60%" },
         {name:'React js', per:"75%" },
         {name:'Angular', per:"78%" },
+        {name:'TypeScript', per:"88%" },
         {name:'C++', per:"90%" }
     ]
 

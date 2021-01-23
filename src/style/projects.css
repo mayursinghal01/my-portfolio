@@ -1,0 +1,68 @@
+.projects{
+    background-color: #82c232;
+    margin-top: -100px;
+    padding-top: 144px;
+}
+.projects h1{
+    font-size: 32px;
+    padding-bottom: 24px;
+}
+.projects h3{
+    color: #bac964;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0 0 10px;
+}
+.projects h1:after{
+    margin-left: 0.5rem;
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 10%;
+    position: relative;
+    vertical-align: middle;
+}
+.projects h1:before{
+    margin-right: 0.5rem;
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 10%;
+    position: relative;
+    vertical-align: middle;
+}
+.card{
+    border-radius: 10px;
+    margin: 0 0 24px;
+    padding: 30px;
+    background: #222629;
+}
+.card p{
+    font-size: 16px;
+    margin: 0 0 16px;
+    color: #ffffff66;
+    line-height: 1.8;
+    font-weight: 200;
+}
+.card span{
+    text-transform: capitalize;
+    background: #82c232;
+    color: aliceblue;
+    margin: 0px 10px 0px 0px;
+    padding:5px 10px 5px 5px;
+    border-radius: 10px;
+}
+.card button{
+    padding: 6px 12px;
+    border: 1px solid #82c232;
+    border-radius: 12px;
+    color: #82c232;
+    background-color: white;
+
+}
+.card button:hover{
+    color :white;
+    background-color: #82c232;
+}
