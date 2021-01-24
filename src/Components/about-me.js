@@ -14,14 +14,13 @@ const About =() => {
         {name:'Mongo DB', per:"60%" },
         {name:'React js', per:"75%" },
         {name:'Angular', per:"78%" },
-        {name:'TypeScript', per:"88%" },
         {name:'C++', per:"90%" }
     ]
 
     return (
-        <>
+        <div id="about">
             <div className="about">
-                <div className="container  text-center col-md-6 offset-3">
+                <div className="container  text-center col-md-6">
                     <h1>GET TO KNOW ME</h1>
                     <p>
                         I am a final year student pursuing Bachelor's of Technology in 
@@ -34,10 +33,10 @@ const About =() => {
                 </div>
             </div>
             <div className="container skills">
-                <h1 className="col-md-4 offset-1">Skills</h1>
-                <Row>
+                <h1 className="col-md-4">Skills</h1>
+                <Row className="justify-content-evenly">
                     {Skills.map((skill,index) => (
-                        <div className="col-md-4 offset-1 mt-2 mb-2">
+                        <div className="col-md-5  mt-2 mb-2">
                         <label key={index} className="medium">{skill.name}</label>
                         <div className="progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated "
@@ -47,7 +46,7 @@ const About =() => {
                     ))}
                 </Row>
             </div>
-        </>
+        </div>
     )
 }
 
