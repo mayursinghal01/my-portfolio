@@ -113,7 +113,7 @@ const Contact = () => {
             </div>
             <div className="row justify-content-center ">
                 <div className="col-md-4 col-sm-5 links text-center">
-                    <a href="https://github.com/mayur16012001">
+                    <a href="https://github.com/mayursinghal01">
                         <Icon name="github" size="big" />
                     </a>
                     
