@@ -1,6 +1,6 @@
 import React from "react"
 import "../style/nav.css"
-import icon from "../images/Icon.png"
+import icon from "../images/icon.png"
 import { Link } from "gatsby"
 
 
