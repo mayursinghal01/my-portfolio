@@ -19,10 +19,10 @@ const Home = () => {
             </div>
             <div className="text-center portfolio">
                 {/* <Image src={portfoli} className="text-center" size='medium' circular /> */}
-                <img src={portfoli} className="img-fluid" height="250" width="250" style={{zIndex:5,position:'relative'}} />
+                <img src={portfoli} className="img-fluid" alt="" height="250" width="250" style={{zIndex:5,position:'relative'}} />
             </div>
             <div className="text-center" >
-                <img src={html} className="img-fluid" style={{zIndex:0,marginTop: -331}} />
+                <img src={html} className="img-fluid" alt="" style={{zIndex:0,marginTop: -331}} />
             </div>
             
         </div>

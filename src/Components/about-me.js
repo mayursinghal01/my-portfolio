@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Row } from 'react-bootstrap'
 import "../style/about.css"
 
@@ -34,8 +34,8 @@ const About =() => {
                 <h1 className="col-md-4">Skills</h1>
                 <Row className="justify-content-evenly">
                     {Skills.map((skill,index) => (
-                        <div className="col-md-5  mt-2 mb-2">
-                        <label key={index} className="medium">{skill.name}</label>
+                        <div key={index} className="col-md-5  mt-2 mb-2">
+                        <label  className="medium">{skill.name}</label>
                         <div className="progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated "
                              style={{width:skill.per}} role="progressbar">{skill.per}</div>
