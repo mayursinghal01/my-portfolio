@@ -10,6 +10,7 @@ const Contact = () => {
         email: "",
         message:""
     })
+    const [show,setShow] = useState(false);
 
     const encode = (data) => {
         return Object.keys(data)
@@ -23,6 +24,14 @@ const Contact = () => {
             [e.target.name] : e.target.value
         })
     }
+    // const AlertsA =() => {
+    //     // console.log("AlertsA");
+    //     return(
+    //         <div className="alert alert-primary" role="alert">
+    //         A simple primary alert—check it out!
+    //         </div>
+    //     )
+    // }
 
     const handleSubmit = e => {
         fetch("/", {
@@ -30,14 +39,25 @@ const Contact = () => {
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: encode({ "form-name": "contact", ...formState })
         })
-          .then(() => alert("Success!"))
+          .then(() => {
+            setFormState({
+                name:"",
+                email:"",
+                message:""
+            })
+            setShow(true);
+            setTimeout(setShow(false),5000)
+            
+            
+          })
           .catch(error => alert(error));
+          
   
         e.preventDefault();
       };
     return(
         <Container className="p-4 " style={{paddingTop:20,mt:-1}} id="contact">
-            <h1 className="text-center col-md-12 col-sm-10 heading">Thanks for taking the time to reach out. Get in Touch</h1>
+            <h1 className="text-center col-md-12 col-sm-10 heading">Thanks for taking the time to reach out <br/> Get in Touch</h1>
             <div className="container row justify-content-center" style={{margin:0}}>
 
 
@@ -56,7 +76,8 @@ const Contact = () => {
                                 value={formState.name} 
                                 name="name" type="text" 
                                 className="form-control p-2" 
-                                id="name"/>
+                                id="name"
+                                required/>
                     </div>
 
 
@@ -67,7 +88,8 @@ const Contact = () => {
                                 name="email" 
                                 value={formState.email} 
                                 className="form-control p-2" 
-                                id="email"/>
+                                id="email"
+                                required/>
                     </div>
 
 
@@ -78,15 +100,15 @@ const Contact = () => {
                                 onChange={handleChange} 
                                 value={formState.message}  
                                 id="textarea" 
-                                style={{height:200}}/>
+                                style={{height:200}}
+                                required/>
                     </div>
 
 
                     <div className="row justify-content-center  ">
-                    <button type="submit" className="submit-btn col-md-2" >Submit</button>
+                    <button type="submit"  className="submit-btn col-md-2" >Submit</button>
                     </div>
                 </form>
-
 
             </div>
             <div className="row justify-content-center ">
@@ -108,6 +130,7 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
+            
         </Container>
     )
 }

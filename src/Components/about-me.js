@@ -9,7 +9,7 @@ const About =() => {
         {name:'CSS3', per:"85%" },
         {name:'JavaScript', per:"75%" },
         {name:'Node.js/Express', per:"80%" },
-        {name:'Bootstarp', per:"90%" },
+        {name:'Bootstrap', per:"90%" },
         {name:'Data Structures', per:"95%" },
         {name:'Mongo DB', per:"60%" },
         {name:'React js', per:"75%" },
@@ -23,12 +23,10 @@ const About =() => {
                 <div className="container  text-center col-md-6">
                     <h1>GET TO KNOW ME</h1>
                     <p>
-                        I am a final year student pursuing Bachelor's of Technology in 
-                        Computer Science.I’m a nice fun and friendly person, I’m honest 
-                        and punctual, I work well in a team but also on my own as I like                         
-                        to set myself goals which I will achieve, I have good listening 
+                        I am a 3rd year student pursuing Bachelor's of Technology in 
+                        Computer Science. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. I have good listening 
                         and communication skills. I enjoy the process of learning and building stuff.
-                        Whenever I am not coding, I like to spend my time reading books.
+                        Whenever I am not coding, I like to spend my time playing games.
                     </p>
                 </div>
             </div>

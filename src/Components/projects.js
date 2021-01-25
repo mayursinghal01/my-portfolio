@@ -8,31 +8,31 @@ const Projects = () => {
     const proj = [
         {
             title:"Leader Board",
-            description:"A single page web application. In this application user can add a player delete a player and increment or decrement palyer score",
+            description:"A single page web application. In this application user can add a player, delete a player and can change player's score.",
             icons:["angular","html5","css3"],
             gitlink:"https://github.com/mayur16012001/leadboard-angular-"
         },
         {
             title:"Recipe Book",
-            description:"User an see recipes and order ingridents of the recipe and also do CURD operation on ingredients",
+            description:"User can perform CRUD operations and can see and order the ingredients of recipes.",
             icons:["angular","html5","css3"],
             gitlink:"https://github.com/mayur16012001/recipe-book"
         },
         {
             title:"Chat-app",
-            description:"A simple chat application its is a real-time chat application using socket.io in node.js",
+            description:"A simple chat application, it is a real-time chat application using socket.io in node.js.",
             icons:["node js","js","html5","css3"],
             gitlink:"https://github.com/mayur16012001/Simple-chat-app"
         },
         {
             title:"Task Manager",
-            description:"A web application where one can keep a track of their pending tasks. Write down the task and mark it done when completed.",
+            description:"A web application where one can keep a track of their pending tasks, write down the task and mark it done when completed.",
             icons:["react","js"],
             gitlink:"https://github.com/mayur16012001/task-manager"
         },
         {
             title:"Tshirt Store",
-            description:"Tshrit store is a ecommerce website use MERN",
+            description:"Tshirt store is an E-commerce website built using MERN stack.",
             icons:["react","js","node js","MongoDB"],
             gitlink:"https://github.com/mayur16012001/tshirt---frontend-"
         }

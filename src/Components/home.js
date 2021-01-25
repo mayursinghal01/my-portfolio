@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div id="home" className="container-fluid d-block" style={{marginTop: -1,paddingTop:50,padding:30,paddingBottom: 0}}>
             <h1 className="text-center heading mt-4" >
-                Designer, Front end Developer & Coding
+                 Full stack Developer & Enthusiast Coder
             </h1>
 
             <div className="resume text-center d-inline">
