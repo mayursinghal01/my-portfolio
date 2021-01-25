@@ -47,7 +47,8 @@ const Projects = () => {
                 <div className="row">
                     {proj.map((project,index) => (
                         <div className="col-md-6" key={index}>
-                            <div className="card">
+                            <div className="card cardbg">
+                                
                                 <div className="card-body">
                                     <h3 className="card-title">{project.title}</h3>
                                     <p className="card-text">{project.description}</p>

@@ -1,31 +1,93 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Container} from 'react-bootstrap'
 import { Icon } from 'semantic-ui-react'
 import "../style/contact.css"
 
 const Contact = () => {
+
+    const[formState,setFormState] = useState({
+        name: "",
+        email: "",
+        message:""
+    })
+
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+      }
+
+    const handleChange = e => {
+        setFormState({
+            ...formState,
+            [e.target.name] : e.target.value
+        })
+    }
+
+    const handleSubmit = e => {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...formState })
+        })
+          .then(() => alert("Success!"))
+          .catch(error => alert(error));
+  
+        e.preventDefault();
+      };
     return(
-        <Container className="bg-dark p-4 " style={{paddingTop:20,mt:-1}} id="contact">
+        <Container className="p-4 " style={{paddingTop:20,mt:-1}} id="contact">
             <h1 className="text-center col-md-12 col-sm-10 heading">Thanks for taking the time to reach out. Get in Touch</h1>
             <div className="container row justify-content-center" style={{margin:0}}>
-                <form className="row justify-content-center col-md-10 mt-3 pt-3" > 
+
+
+                <form onSubmit={handleSubmit} 
+                    className="row justify-content-center col-md-10 mt-3 pt-3" 
+                    name="contact" 
+                    method="post" 
+                    data-netlify="true" 
+                    data-netlify-honeypot="bot-field" > 
+                
+                    <input type="hidden" name="form-name" value="contact" />
+                    
                     <div className="col-md-4  p-2">
                         <label for="name" className="form-label">Name</label>
-                        <input type="text" className="form-control p-2" id="name"/>
+                        <input onChange={handleChange} 
+                                value={formState.name} 
+                                name="name" type="text" 
+                                className="form-control p-2" 
+                                id="name"/>
                     </div>
+
+
                     <div className="col-md-4 p-2">
                         <label for="email" className="form-label">Email</label>
-                        <input type="email" className="form-control p-2" id="email"/>
+                        <input type="email" 
+                                onChange={handleChange} 
+                                name="email" 
+                                value={formState.email} 
+                                className="form-control p-2" 
+                                id="email"/>
                     </div>
+
+
                     <div className="col-md-8  mt-2 mb-4 p-2">
                         <label for="textarea" className="form-label">Message</label>
-                        <textarea className="form-control" id="textarea" style={{height:200}}/>
+                        <textarea className="form-control" 
+                                name="message" 
+                                onChange={handleChange} 
+                                value={formState.message}  
+                                id="textarea" 
+                                style={{height:200}}/>
                     </div>
+
+
                     <div className="row justify-content-center  ">
                     <button type="submit" className="submit-btn col-md-2" >Submit</button>
                     </div>
-                    
                 </form>
+
+
             </div>
             <div className="row justify-content-center ">
                 <div className="col-md-4 col-sm-5 links text-center">

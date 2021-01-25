@@ -32,7 +32,7 @@ const About =() => {
                     </p>
                 </div>
             </div>
-            <div className="container skills">
+            <div className="container skills cardbg">
                 <h1 className="col-md-4">Skills</h1>
                 <Row className="justify-content-evenly">
                     {Skills.map((skill,index) => (
