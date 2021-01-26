@@ -4,6 +4,7 @@ import { Icon } from 'semantic-ui-react'
 import portfoli from "../images/portfoli.jpeg"
 import html from "../images/html.png"
 const Home = () => {
+   
     return (
         <div id="home" className="container-fluid d-block" style={{marginTop: -1,paddingTop:50,padding:30,paddingBottom: 0}}>
             <h1 className="text-center heading mt-4" >
@@ -12,7 +13,7 @@ const Home = () => {
 
             <div className="resume text-center d-inline">
                 <p>Hi, I'm <span>Mayur Singhal</span>. Nice to meet you.
-                    <button className="p-2 ps-4 pe-4 ms-3">Resume 
+                    <button onClick={() =>  window.open('https://drive.google.com/file/d/1QB-y1C80djOHg-a_xFtjIwPClQIjVpNU/view?usp=sharing', "_blank")} className="p-2 ps-4 pe-4 ms-3">Resume 
                         <Icon style={{paddingLeft: 10}} name="file alternate outline"/>
                     </button>
                 </p>
