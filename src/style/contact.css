@@ -1,13 +1,14 @@
 .submit-btn{
-    color: #82c232;
+    color: #def2f1;
     padding: 12px;
-    border: solid #82c232 4px;
+    border: none;
     font-size: 20px;
     border-radius: 50px;
+    background-color: #17252a;
 }
 .submit-btn:hover{
-    color: white;
-    background-color: #82c232;
+    color: #17252a;
+    background-color: #def2f1;
 
 }
 .links{
@@ -17,10 +18,10 @@
 .links a{
     margin-right: 10px;
     margin-left: 10px;
-    color: #82c232;
+    color: #def2f1;
 }
 label{
-    color: #82c232;
+    color: #17252a;
     font-size: 20px;
     margin-top: 10px;
 }

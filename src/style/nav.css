@@ -1,8 +1,7 @@
 .logo{
-  color: #86c232;
+  color: #17252a;
   font-size: 35px;
   font-weight: 600;
-  
 }
 ul li{
   padding: 12px 24px;
@@ -10,16 +9,15 @@ ul li{
 }
 ul li a{
   margin: auto;
-  color: #86c232 !important;
+  color: #17252a !important;
 }
 ul li a:hover{
-  color: white !important;
+  color: #2b7a78 !important;
+  font-weight: bolder;
 }
-.border-bottom{
-  border-color: black !important;
-
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("https://img.icons8.com/material-rounded/24/000000/menu--v1.png")
 }
-.navbar-dark .navbar-toggler {
-  color: #82c232;
-  border-color:#82c232;
+.navbar{
+  background-color: #def2f1;
 }

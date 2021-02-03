@@ -1,10 +1,11 @@
 .about{
-    background-color: #82c232;
-    color: #222629;
+    background-color: #3aafa9;
+    color: #17252a;
     padding: 144px 14px;
 }
 .about h1{
-    font-size: 32px;
+    color: #def2f1;
+    font-size: 40px;
     margin: 0 0 24px;
 }
 .about p{
@@ -14,14 +15,20 @@
 .skills{
     z-index: 5;
     position: relative;
-    background-color:#222629;
+    background-color:#def2f1;
     border-radius: 45px;
     padding: 50px 40px;
     margin-top: -100px;
 }
 .skills h1{
     padding: 0px 0px 0px 20px;
-    color: white;
+    color: #17252a;
     font-size: 3rem;
 
+}
+.progress{
+    background-color: #17252a;
+}
+.progress-bar{
+    background-color: #3aafa9;
 }

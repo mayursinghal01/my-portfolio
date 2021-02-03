@@ -1,5 +1,5 @@
 .projects{
-    background-color: #82c232;
+    background-color: #def2f1;
     margin-top: -100px;
     padding-top: 144px;
 }
@@ -8,14 +8,14 @@
     padding-bottom: 24px;
 }
 .projects h3{
-    color: #bac964;
+    color: #def2f1;
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 600;
     margin: 0 0 10px;
 }
 .projects h1:after{
     margin-left: 0.5rem;
-    background-color: black;
+    background-color:#17252a;
     content: "";
     display: inline-block;
     height: 3px;
@@ -25,7 +25,7 @@
 }
 .projects h1:before{
     margin-right: 0.5rem;
-    background-color: black;
+    background-color: #17252a;
     content: "";
     display: inline-block;
     height: 3px;
@@ -37,39 +37,33 @@
     border-radius: 10px;
     margin: 0 0 24px;
     padding: 30px;
-    background: #222629;
+    background: #3aafa9;
 }
 .card p{
     font-size: 16px;
     margin: 0 0 16px;
-    color: #ffffff66;
+    color: #17252a;
     line-height: 1.8;
     font-weight: 200;
 }
 .card .badge{
     text-transform: capitalize;
-    background: #82c232;
-    color: aliceblue;
+    background: #feffff;
+    color: #17252a;
     margin: 0px 10px 6px 0px;
     padding:5px 10px 5px 5px;
     border-radius: 10px;
 }
 .card button{
     padding: 6px 12px;
-    border: 1px solid #82c232;
+    border: none;
     border-radius: 12px;
-    color: #82c232;
-    background-color: white;
+    color: #def2f1;
+    background-color: #17252a;
 
 }
 .card button:hover{
-    color :white;
-    background-color: #82c232;
+    color :#17252a;
+    background-color: #def2f1;
 }
-.cardbg{
-    background-image: url("../images/card.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
+

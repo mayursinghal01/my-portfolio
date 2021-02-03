@@ -4,5 +4,6 @@ module.exports = {
   },
   plugins: ["gatsby-plugin-styled-components"],
   plugins: [`gatsby-plugin-react-helmet`],
-  plugins: [`gatsby-plugin-smoothscroll`]
+  plugins: [`gatsby-plugin-smoothscroll`],
+  pathPrefix: "/my-portfolio",
 };

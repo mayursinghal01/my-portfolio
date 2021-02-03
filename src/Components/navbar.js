@@ -8,10 +8,10 @@ const Navbar = () => {
  
 
    return(
-    <nav className="navbar navbar-dark border-bottom">
+    <nav className="navbar navbar-dark">
     <div className="container-fluid">
     <div className="logo">
-      <a className="navbar-brand" href="/" style={{color:"#82c232"}}>
+      <a className="navbar-brand" href="/" style={{color:"#17252a"}}>
         <img src={icon} alt="" height="85" width="85" />
         MS
       </a>
