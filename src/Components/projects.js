@@ -1,7 +1,7 @@
 import React from 'react'
 import { Badge } from 'react-bootstrap'
 import { Icon } from 'semantic-ui-react'
-import "../style/projects.css"
+
 
 const Projects = () => {
 

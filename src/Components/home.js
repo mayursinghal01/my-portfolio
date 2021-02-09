@@ -1,12 +1,11 @@
 import React from 'react'
-import "../style/home.css"
 import { Icon } from 'semantic-ui-react'
 import portfoli from "../images/portfoli.jpeg"
 import html from "../images/html.png"
 const Home = () => {
    
     return (
-        <div id="home" className="container-fluid d-block" style={{marginTop: -1,paddingTop:50,padding:30,paddingBottom: 0}}>
+        <div id="home" className="container-fluid d-block" style={{marginTop: 55,paddingTop:60,padding:30,paddingBottom: 0}}>
             <h1 className="text-center heading mt-4" >
                  Full stack Developer & Enthusiast Coder
             </h1>

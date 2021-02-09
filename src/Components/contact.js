@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {Container} from 'react-bootstrap'
 import { Icon } from 'semantic-ui-react'
-import "../style/contact.css"
+// import "../style/contact.css"
 
 const Contact = () => {
 

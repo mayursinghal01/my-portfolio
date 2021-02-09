@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row } from 'react-bootstrap'
-import "../style/about.css"
 
 const About =() => {
 
@@ -24,7 +23,8 @@ const About =() => {
                     <h1>GET TO KNOW ME</h1>
                     <p>
                         I am a 3rd year student pursuing Bachelor's of Technology in 
-                        Computer Science. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. I have good listening 
+                        Computer Science. I am passionate about my work. Because I love what I do, 
+                        I have a steady source of motivation that drives me to do my best. I have good listening 
                         and communication skills. I enjoy the process of learning and building stuff.
                         Whenever I am not coding, I like to spend my time playing games.
                     </p>
