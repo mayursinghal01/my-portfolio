@@ -12,7 +12,7 @@ const Home = () => {
 
             <div className="resume text-center d-inline">
                 <p>Hi, I'm <span>Mayur Singhal</span>. Nice to meet you.
-                    <button onClick={() =>  window.open('https://drive.google.com/file/d/1QB-y1C80djOHg-a_xFtjIwPClQIjVpNU/view?usp=sharing', "_blank")} className="p-2 ps-4 pe-4 ms-3">Resume 
+                    <button onClick={() =>  window.open('https://drive.google.com/file/d/1NgGYDraxWkXjZf79O_2DvzOoqRuepCMo/view?usp=sharing', "_blank")} className="p-2 ps-4 pe-4 ms-3">Resume 
                         <Icon style={{paddingLeft: 10}} name="file alternate outline"/>
                     </button>
                 </p>

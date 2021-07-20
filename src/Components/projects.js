@@ -31,10 +31,16 @@ const Projects = () => {
             gitlink:"https://github.com/mayursinghal01/task-manager"
         },
         {
-            title:"Tshirt Store",
-            description:"Tshirt store is an E-commerce website built using MERN stack.",
+            title:"E-commerce website",
+            description:"E-commerce website built using MERN stack.",
             icons:["react","js","node js","mongoDB"],
-            gitlink:"https://github.com/mayursinghal01/tshirt---frontend-"
+            gitlink:"https://github.com/mayursinghal01/E-commerce--MERN"
+        },
+        {
+            title:"Photo Gallery",
+            description:"Simple Photo Gallery Using Grid ",
+            icons:["html5","css3"],
+            gitlink:"https://github.com/mayursinghal01/port"
         }
     ]
 
